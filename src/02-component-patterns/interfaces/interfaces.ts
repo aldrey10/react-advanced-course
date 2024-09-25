@@ -21,3 +21,12 @@ import { Props as ProductButonsProps } from "../components/ProductButtons";
     Image: (Props: ProductImageProps) => JSX.Element,
     Buttons: (Props: ProductButonsProps) => JSX.Element
   }
+
+  export interface onChangeArgs {
+    product: Product,
+    count: number,
+  }
+
+  export interface ProductInCart extends Product {
+    count: number
+  }
