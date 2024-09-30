@@ -1,0 +1,68 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Oscar",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    }, {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Aldrey",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }, {
+        "type": "email",
+        "name": "email",
+        "placeholder": "pepe@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }, 
+            {
+                "type": "email"
+            }
+        ]
+    }, {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ],
+        "options": [
+            {
+                "id": 1,
+                "label": "Uncharted"
+            }, {
+                "id": 2,
+                "label": "Fifa"
+            }, {
+                "id": 3,
+                "label": "Fortnite"
+            }, {
+                "id": 4,
+                "label": "Cod"
+            }
+        ]
+    }
+]
